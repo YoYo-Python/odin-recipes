@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:wght@100;400&family=Roboto+Mono:wght@500&display=swap");
+body {
+  background: linear-gradient(to right, #41295a, #2f0743);
+  color: white;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 8rem;
+  text-align: center;
+  font-family: "Bree Serif";
+}
+
+.recipe-list a {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: black;
+}
+
+ul > li {
+  padding: 15px;
+}
+
+.container {
+  background-image: linear-gradient(to right, #67b26f, #4ca2cd);
+  border-radius: 30px;
+  width: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+footer {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 7rem;
+}
